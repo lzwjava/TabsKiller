@@ -5,32 +5,40 @@
  value "popup.html".
  -->
 <html>
-  <head>
-    <title>Tabs Killer Extension's Popup</title>
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
-      }
-    </style>
+<head>
+  <title>Tabs Killer Extension's Popup</title>
+  <link rel="stylesheet" href="js/lib/bootstrap/css/bootstrap.css" type="text/css"/>
+  <link rel="stylesheet" href="css/popup.css"/>
 
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
-     -->
-    <script src="popup.js"></script>
-  </head>
-  <body>
-    <div id="status"></div>
-  </body>
+  <script src="js/lib/jquery.min.js"></script>
+  <script src="js/lib/underscore.js"></script>
+  <script src="js/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/lib/bootstrap/js/bootstrap-tab.js"></script>
+  <script src="js/lib/require.js"></script>
+  <script src="app.build.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body>
+
+<ul class="nav nav-tabs">
+  <li><a href="#tabOptions" target="#tabOptions" data-toggle="tab">Options</a></li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="tabOptions">
+    <form class="well">
+      <fieldset>
+        <legend>Settings</legend>
+        <p>
+          <label for="maxTabs">Maximum tabs to stay on</label>
+          <input type="text" id="maxTabs" class="span1" name="maxTabs"> tabs
+        </p>
+      </fieldset>
+
+      <div id="status" class="alert alert-success invisible"></div>
+    </form>
+  </div>
+</div>
+</body>
 </html>
 
