@@ -5,7 +5,8 @@ define(['underscore'], function (_) {
 
   Settings = {
     defaults: {
-      maxTabs: 15
+      maxTabs: 15,
+      whiteList:['chrome://*']
     },
     init: function () {
       var self = this;
@@ -34,6 +35,13 @@ define(['underscore'], function (_) {
       throw Error('MaxTabs must be greater than 0 and less than 200');
     }
     Settings.setValue('maxTabs', value);
+  };
+
+  Settings.setWhiteList = function (value) {
+    if (typeof value != 'object') {
+      throw new Error('white list should be array, ' + typeof (value) + ' given');
+    }
+    Settings.setValue('whiteList', value);
   };
 
   Settings.get = function (key) {

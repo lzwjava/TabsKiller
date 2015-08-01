@@ -35,10 +35,44 @@
         </p>
       </fieldset>
 
-      <div id="status" class="alert alert-success invisible"></div>
+      <div id="status" class="alert alert-success invisible"></div>`
+
+      <fieldset>
+        <legend>Auto-Lock</legend>
+        <label for="white-list-input">tab with url which contains string:</label>
+        <input type="text" id="white-list-input"/>
+
+        <!--add on what?-->
+        <button class="btn-mini add-on" disabled id="white-list-add">Add</button>
+
+        <table class="table table-bordered table-striped" id="white-list">
+          <thead>
+          <tr>
+            <th>
+              Url Pattern
+            </th>
+            <th>
+            </th>
+          </tr>
+          </thead>
+
+          <tbody>
+          </tbody>
+        </table>
+
+      </fieldset>
+
     </form>
   </div>
 </div>
+
+<script type="text/html" id="url-item-template">
+  <tr>
+    <td><%=url%></td>
+    <td><a class="deleteLink" href="#">Remove</a></td>
+  </tr>
+</script>
+
 </body>
 </html>
 

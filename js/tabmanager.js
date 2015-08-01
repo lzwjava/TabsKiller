@@ -51,15 +51,30 @@ define(['settings'], function (settings) {
           if (!TabManager.tabUpdateTimes[tab.id]) {
             TabManager.updateTabTime(tab.id);
           }
-          tabs.push({tabId: tab.id, updatedAt: TabManager.tabUpdateTimes[tab.id]});
+          tab.updatedAt = TabManager.tabUpdateTimes[tab.id];
+          if (TabManager.isWhiteListUrl(tab.url) == false) {
+            tabs.push(tab);
+          } else {
+            console.log('continue , white list url ' + tab.url);
+          }
         });
         tabs = _.sortBy(tabs, 'updatedAt');
-        var size = window.tabs.length - settings.get('maxTabs');
+        var size = tabs.length - settings.get('maxTabs');
         for (var i = 0; i < size; i++) {
-          chrome.tabs.remove(tabs[i].tabId);
+          chrome.tabs.remove(tabs[i].id);
         }
       }
     });
+  };
+
+  TabManager.isWhiteListUrl = function (url) {
+    var whiteList = settings.get('whiteList');
+    for (var i = 0; i < whiteList.length; i++) {
+      if (url.indexOf(whiteList[i]) != -1) {
+        return true;
+      }
+    }
+    return false;
   };
 
   return TabManager;

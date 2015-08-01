@@ -11,6 +11,7 @@ require(['tabmanager', 'settings'], function (tabmanager, settings) {
 
     settings.init();
     tabmanager.init();
+
   };
 
   starup();
