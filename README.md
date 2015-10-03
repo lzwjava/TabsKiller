@@ -6,5 +6,4 @@ Plugin Screenshot:
 
 Demo:
 
-![killer](https://cloud.githubusercontent.com/assets/5022872/10262478/1eead1b4-69fc-11e5-834b-8761b8f7c5b9.gif)
-
+![killer](https://cloud.githubusercontent.com/assets/5022872/10262518/cd196a60-69fd-11e5-93bf-0589d65eeb19.gif)
