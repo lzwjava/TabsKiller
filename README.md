@@ -20,3 +20,7 @@ First, go to [chrome://extensions](chrome://extensions), then select the develop
 
 
 More detail can find in Chrome Get Started [tutorial](https://developer.chrome.com/extensions/getstarted#unpacked).
+
+中文：
+
+因为中国的 visa 卡不能用于 Google 支付，我暂时还没上传到 Chrome 商店里。但既然代码开源了，安装还是很容易的。首先，点击右边的 Download ZIP 下载源代码及解压，然后打开[chrome://extensions](chrome://extensions)，选择`开发者模式`，然后点击`加载已解压的扩展程序`，像上面的图一样。接下来会弹出一个文件选择框，选择刚刚下载的源代码目录。这样就安装了这个插件了。
