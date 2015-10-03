@@ -9,3 +9,14 @@ I usually open many tabs in Chrome. So I press Ctrl + W to close them a lot one 
 ## Demo
 
 ![killer](https://cloud.githubusercontent.com/assets/5022872/10262518/cd196a60-69fd-11e5-93bf-0589d65eeb19.gif)
+
+## Install
+
+Because my visa credit card could not make Google Payment, I haven't uploaded it to the Chrome store. But as the source code is open, install it is easy. 
+
+First, go to `chrome://extensions`, then select the developer mode, then load unpacked extension. It's done.
+
+![chrome](https://cloud.githubusercontent.com/assets/5022872/10262586/ddc451b0-6a00-11e5-8b10-da16c9658221.jpg)
+
+
+More detail can find in Chrome Get Started [tutorial](https://developer.chrome.com/extensions/getstarted#unpacked).
