@@ -14,7 +14,7 @@ I usually open many tabs in Chrome. So I press Ctrl + W to close them a lot one 
 
 Because my visa credit card could not make Google Payment, I haven't uploaded it to the Chrome store. But as the source code is open, to install it is easy. 
 
-First, go to [chrome://extensions](chrome://extensions), then select the developer mode, and then load unpacked extension. It's done.
+First, go to <a href="chrome://extensions">chrome://extensions</a>, then select the developer mode, and then load unpacked extension. It's done.
 
 ![chrome](https://cloud.githubusercontent.com/assets/5022872/10262586/ddc451b0-6a00-11e5-8b10-da16c9658221.jpg)
 
@@ -23,4 +23,4 @@ More detail can find in Chrome Get Started [tutorial](https://developer.chrome.c
 
 中文：
 
-因为中国的 visa 卡不能用于 Google 支付，我暂时还没上传到 Chrome 商店里。但既然代码开源了，安装还是很容易的。首先，点击右边的 Download ZIP 下载源代码及解压，然后打开[chrome://extensions](chrome://extensions)，选择`开发者模式`，然后点击`加载已解压的扩展程序`，像上面的图一样。接下来会弹出一个文件选择框，选择刚刚下载的源代码目录。这样就安装了这个插件了。
+因为中国的 visa 卡不能用于 Google 支付，我暂时还没上传到 Chrome 商店里。但既然代码开源了，安装还是很容易的。首先，点击右边的 Download ZIP 下载源代码及解压，然后打开<a href="chrome://extensions">chrome://extensions</a>，选择`开发者模式`，然后点击`加载已解压的扩展程序`，像上面的图一样。接下来会弹出一个文件选择框，选择刚刚下载的源代码目录。这样就安装了这个插件了。
