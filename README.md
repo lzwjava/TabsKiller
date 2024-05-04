@@ -1,6 +1,6 @@
 # TabsKiller
 
-A Chrome plugin that automatically kill the oldest tabs when tabs are too many, goodbye messy browser forever!
+Introducing a Chrome plugin that automatically closes the oldest tabs when your browser gets cluttered with too many tabs. Say goodbye to a messy browser experience forever!
 
 一个神奇的 Chrome 插件，当打开网页过多的时候，会自动关掉最老的网页，让浏览器保持清爽！
 
@@ -17,9 +17,9 @@ A Chrome plugin that automatically kill the oldest tabs when tabs are too many, 
 
 # Features
 
-1. Automatically close oldest tabs when number of tabs is more than x.
-2. Can customize the x (tabs maximum)
-3. Can lock some pattern url, so tabs matched the pattern will not be closed even when there are too much tabs.
+1. Automatically close the oldest tabs when the number of tabs exceeds a set limit.
+2. Customize the maximum number of tabs (x) according to your preference.
+3. Lock specific URL patterns to ensure that tabs matching those patterns remain open, even when there are too many tabs open.
 
 # 特性
 
