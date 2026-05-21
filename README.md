@@ -4,7 +4,7 @@ Automatically close the oldest tabs when your browser gets cluttered with too ma
 
 Now available for both **Chrome** and **Safari**!
 
-[中文说明 / Chinese](README-CN.md)
+🌐 English | [中文](README-CN.md)
 
 ---
 

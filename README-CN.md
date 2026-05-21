@@ -4,7 +4,7 @@
 
 现已支持 **Chrome** 和 **Safari**！
 
-[English](README.md)
+🌐 [English](README.md) | 中文
 
 ---
 
