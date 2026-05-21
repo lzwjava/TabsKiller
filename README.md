@@ -6,6 +6,8 @@ Now available for both **Chrome** and **Safari**!
 
 🌐 English | [中文](README-CN.md)
 
+> A browser extension for Chrome and Safari that automatically kills the oldest tabs when you have too many open.
+
 ---
 
 ## Safari
