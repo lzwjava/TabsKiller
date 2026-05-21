@@ -4,9 +4,7 @@ Automatically close the oldest tabs when your browser gets cluttered with too ma
 
 Now available for both **Chrome** and **Safari**!
 
-一个神奇的浏览器扩展，当打开网页过多的时候，会自动关掉最老的网页，让浏览器保持清爽！现已支持 Chrome 和 Safari！
-
-[中文说明](README-CN.md)
+[中文说明 / Chinese](README-CN.md)
 
 ---
 
