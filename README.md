@@ -1,4 +1,4 @@
-# TabsKiller
+# tab-killer
 
 Automatically close the oldest tabs when your browser gets cluttered with too many tabs. Say goodbye to a messy browser experience forever!
 
