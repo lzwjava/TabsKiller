@@ -6,7 +6,7 @@
 
 🌐 [English](README.md) | 中文
 
-> 一个适用于 Chrome 和 Safari 的浏览器扩展，标签页太多时自动关掉最老的标签页。
+> 浏览器扩展，自动管理标签页，保持浏览器清爽。支持 Chrome 和 Safari。
 
 ---
 

@@ -6,7 +6,7 @@ Now available for both **Chrome** and **Safari**!
 
 🌐 English | [中文](README-CN.md)
 
-> A browser extension for Chrome and Safari that automatically kills the oldest tabs when you have too many open.
+> A browser extension to maintain a clean browser by auto-closing old browser tabs. Available for Chrome & Safari.
 
 ---
 
